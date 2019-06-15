@@ -1,4 +1,4 @@
-Light Scroll
+Light Masonry
 
 Light scroll is a lite gem for masonry grid layout
 To get started:

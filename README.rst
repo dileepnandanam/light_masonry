@@ -12,4 +12,17 @@ To get started:
     //= require light_masonry/light_masonry
     
     #example view
-    $('.parent').light_masonry({itemSelector: '.brick'})
+    .parent
+      .brick
+      .brick
+      .brick
+    
+    #css
+    .brick {
+      display: inline-block;
+    }
+    #javascript
+    $(document).on('turbolinks:load', function(){initMasonry})
+    var initMasonry = function() {
+      $('.parent').light_masonry({itemSelector: '.brick'})
+    }

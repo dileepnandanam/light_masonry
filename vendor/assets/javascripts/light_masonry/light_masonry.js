@@ -28,6 +28,7 @@ masonry = function(config){
         var removed = surface[j]
         $(brick[i]).css('top', removed[2])
         $(brick[i]).css('left', removed[0])
+        $(brick[i]).css('position', 'absolute')
         
         new_l = removed[0]
         new_r = removed[0] + width

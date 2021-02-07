@@ -24,5 +24,5 @@ To get started:
     #javascript
     $(document).on('turbolinks:load', function(){initMasonry})
     var initMasonry = function() {
-      $('.parent').light_masonry({itemSelector: '.brick'})
+      $('.parent').masonry({itemSelector: '.brick'})
     }
